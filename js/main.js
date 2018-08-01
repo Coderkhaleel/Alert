@@ -187,7 +187,7 @@ function sendAlert(){
   url: "https://jsonplaceholder.typicode.com/todos/1",
   type: "GET",
   success: function(res){
-    alert('Alert Sent!')
+    alert('Alert Sent successfully!')
 	console.log(res)
   }
 });}
